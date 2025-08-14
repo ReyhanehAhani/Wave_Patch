@@ -48,7 +48,7 @@ modules_hybrid_encoder.py       # Contains WeConv and IWeConv definitions
 
 ---
 
-### 🏋️‍♂️ Training
+### Training
 
 **Train the hybrid encoder:**
 ```bash
@@ -62,7 +62,7 @@ python train_latent_wavelet.py './data/ModelNet40_pc_8192/**/train/*.ply' ./mode
 
 ---
 
-### 📦 Compression
+### Compression
 
 **Hybrid model compression:**
 ```bash
@@ -76,7 +76,7 @@ python compress_latent_wavelet.py ./model/trained_latent     './data/ModelNet40_
 
 ---
 
-### 🔄 Decompression
+### Decompression
 
 **Hybrid model decompression:**
 ```bash
@@ -90,7 +90,7 @@ python decompress_latent_wavelet.py ./model/trained_latent     ./data/ModelNet40
 
 ---
 
-### 📊 Evaluation
+### Evaluation
 
 **Evaluate hybrid model outputs:**
 ```bash
@@ -104,7 +104,7 @@ python eval_chamfer_wavelet.py ./path/to/pc_error     './data/ModelNet40_pc_8192
 
 ---
 
-### 📚 Citation
+### Citation
 
 ```bibtex
 @incollection{you2021patch,
