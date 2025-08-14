@@ -40,7 +40,7 @@ python ./sample_data.py ./data/shapenetcore_partanno_segmentation_benchmark_v0_n
 
 ---
 
-### 🏋️‍♂️ Training
+### Training
 
 To train the hybrid autoencoder:
 
@@ -50,7 +50,7 @@ python ./train_hybrid.py './data/ModelNet40_pc_8192/**/train/*.ply'        './mo
 
 ---
 
-### 📦 Compression
+### Compression
 
 To compress point clouds using a trained model:
 
@@ -60,7 +60,7 @@ python ./compress_symmetric_hybrid.py './model/trained_model'        './data/Mod
 
 ---
 
-### 🔄 Decompression
+### Decompression
 
 To decompress the previously compressed files:
 
@@ -70,7 +70,7 @@ python ./decompress_symmetric_hybrid.py './model/trained_model'        './data/M
 
 ---
 
-### 📊 Evaluation
+### Evaluation
 
 To evaluate compression quality (Chamfer Distance + BPP):
 
@@ -80,7 +80,7 @@ python ./eval.py ./path/to/pc_error        './data/ModelNet40_pc_8192/**/test/*.
 
 ---
 
-### 📚 Citation
+### Citation
 
 This project is an implementation and extension of the core ideas presented in the following paper:
 
